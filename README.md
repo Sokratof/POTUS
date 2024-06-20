@@ -1,0 +1,2 @@
+# POTUS
+for study python
