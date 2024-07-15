@@ -6,13 +6,17 @@
 """
 
 
-class LowFuelError(Exception):
+class BaseMyException(Exception):
     pass
 
 
-class NotEnoughFuel(Exception):
+class LowFuelError(BaseMyException):
     pass
 
 
-class CargoOverload(Exception):
+class NotEnoughFuel(BaseMyException):
+    pass
+
+
+class CargoOverload(BaseMyException):
     pass
